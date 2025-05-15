@@ -1,0 +1,49 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    .inputContainer {
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+
+    }
+
+    .inputBox {
+        width: 100%;
+    }
+
+    .btnDiv {
+        width: 20%;
+    }
+
+    #btnSearch {
+        width: 100%;
+        padding: 12px;
+    }
+
+    #btnPrevious,
+    #btnNext {
+        width: 45%;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #card img {
+        max-height: 180px;
+        width: 150px;
+    }
+
+    .stats {
+        flex-direction: row;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Pokemon</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS STYLES -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/components.css">
+        <link rel="stylesheet" href="css/utils.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!--  Font Awesome  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="inputContainer">
+                    <div class="inputBox">
+                        <input id="input" type="text" required="required">
+                        <span>Name or Number</span> 
+                    </div>
+                    <div class="btnDiv">
+                        <button id="btnSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                <div id="card">
+                    <p class="hp">
+                        <span>HP</span>
+                        80
+                    </p>
+                    <img alt="Image not found">
+                    <h2 id="pokemon_name">Default name</h2>
+                    <div class="types">
+                        <span>type 1</span>
+                        <span>type 2</span>
+                    </div>
+                    <div class="stats">
+                        <div>
+                            <h3 id="statsAttack">60</h3>
+                            <p>Attack</p>
+                        </div>
+                        <div>
+                            <h3 id="statsDefense">60</h3>
+                            <p>Defense</p>
+                        </div>
+                        <div>
+                            <h3 id="statsSpeed">60</h3>
+                            <p>Speed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="btnPrevious">Previous</button>
+                    <button id="btnNext">Next</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script type="module" src="./js/main.js">
+        
+    </script>
+</html>
